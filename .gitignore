@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+*.vsidx
+/FantasyWebApp/FantasyWebApp/bin
+/FantasyWebApp/FantasyWebApp/obj/Debug

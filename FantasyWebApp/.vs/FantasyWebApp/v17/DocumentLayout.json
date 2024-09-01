@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|c:\\users\\ptige\\documents\\fantasywebapp\\fantasywebapp\\fantasywebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|c:\\users\\ptige\\documents\\fantasywebapp\\fantasywebapp\\fantasywebapp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|c:\\users\\ptige\\documents\\fantasywebapp\\fantasywebapp\\fantasywebapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "FantasyWebApp\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T16:20:47.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "FantasyWebApp\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T16:20:42.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FantasyWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T16:20:19.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

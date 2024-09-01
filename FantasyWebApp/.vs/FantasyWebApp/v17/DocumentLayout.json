@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|c:\\users\\ptige\\documents\\fantasywebapp\\fantasywebapp\\fantasywebapp\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|c:\\users\\ptige\\documents\\fantasywebapp\\fantasywebapp\\fantasywebapp\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|c:\\users\\ptige\\documents\\fantasywebapp\\fantasywebapp\\fantasywebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,19 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayersController.cs",
+              "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Controllers\\PlayersController.cs",
+              "RelativeDocumentMoniker": "FantasyWebApp\\Controllers\\PlayersController.cs",
+              "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Controllers\\PlayersController.cs",
+              "RelativeToolTip": "FantasyWebApp\\Controllers\\PlayersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T19:32:48.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "FantasyWebApp\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Models\\Player.cs",
+              "RelativeToolTip": "FantasyWebApp\\Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T19:28:31.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "FantasyWebApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-01T16:20:19.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Home\\Contact.cshtml",
@@ -52,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Home\\About.cshtml",

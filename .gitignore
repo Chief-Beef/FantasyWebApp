@@ -38,3 +38,4 @@
 *.cache
 *.cache
 *.ldf
+/FantasyWebApp/FantasyWebApp/App_Data

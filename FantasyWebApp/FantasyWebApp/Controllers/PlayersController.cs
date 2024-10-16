@@ -20,6 +20,12 @@ namespace FantasyWebApp.Controllers
             return View(db.Players.ToList());
         }
 
+        // GET: Players/ShowSearchForm
+        public ActionResult ShowSearchForm()
+        {
+            return View();
+        }
+
         // GET: Players/Details/5
         public ActionResult Details(int? id)
         {

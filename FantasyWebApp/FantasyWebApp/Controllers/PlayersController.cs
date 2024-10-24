@@ -26,6 +26,12 @@ namespace FantasyWebApp.Controllers
             return View();
         }
 
+        //Post: Players/ShowSearchResults
+        public ActionResult ShowSearchResults()
+        {
+            return View();
+        }
+
         // GET: Players/Details/5
         public ActionResult Details(int? id)
         {

@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using FantasyWebApp.Models;
@@ -27,9 +28,9 @@ namespace FantasyWebApp.Controllers
         }
 
         //Post: Players/ShowSearchResults
-        public ActionResult ShowSearchResults()
+        public ActionResult ShowSearchResults(String SearchPhrase)
         {
-            return View();
+            return View("Index", db.Players.Where( p => p.Name.Contains(SearchPhrase)). ToList());
         }
 
         // GET: Players/Details/5

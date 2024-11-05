@@ -34,8 +34,8 @@
 *.vsidx
 /FantasyWebApp/FantasyWebApp/bin
 /FantasyWebApp/FantasyWebApp/obj/Debug
-*.cache
-*.cache
-*.cache
-*.ldf
 /FantasyWebApp/FantasyWebApp/App_Data
+FantasyWebApp/.vs/FantasyWebApp/v17/.suo
+*.cache
+*.mdf
+*.ldf

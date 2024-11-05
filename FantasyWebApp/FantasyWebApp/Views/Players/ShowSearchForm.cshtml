@@ -10,12 +10,28 @@
             <hr />
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             <div class="form-group">
-                <label for="SearchPhrase" class="control-label col-md-2"></label>
+                NAME
+                <label for="NameSearchPhrase" class="control-label col-md-2"></label>
                 <div class="col-md-10">
-                    <input name="SearchPhrase" class="form-control"></input>
+                    <input name="NameSearchPhrase" class="form-control">
                 </div>
             </div>
 
+            <div class="form-group">
+                POSITION
+                <label for="PosSearchPhrase" class="control-label col-md-2"></label>
+                <div class="col-md-10">
+                    <input name="PosSearchPhrase" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group">
+                TEAM
+                <label for="TeamSearchPhrase" class="control-label col-md-2"></label>
+                <div class="col-md-10">
+                    <input name="TeamSearchPhrase" class="form-control">
+                </div>
+            </div>
 
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">

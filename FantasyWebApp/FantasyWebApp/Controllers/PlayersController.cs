@@ -28,9 +28,10 @@ namespace FantasyWebApp.Controllers
         }
 
         //Post: Players/ShowSearchResults
-        public ActionResult ShowSearchResults(String SearchPhrase)
+        public ActionResult ShowSearchResults(String NameSearchPhrase, String TeamSearchPhrase, String PosSearchPhrase)
         {
-            return View("Index", db.Players.Where( p => p.Name.Contains(SearchPhrase)). ToList());
+            return View("Index", db.Players.Where(p => p.Name.Contains(NameSearchPhrase)).Where(p => p.Team.Contains(TeamSearchPhrase))
+                .Where(p => p.Position.Contains(PosSearchPhrase)).ToList());
         }
 
         // GET: Players/Details/5

@@ -12,6 +12,11 @@ namespace FantasyWebApp.Models
         public string Name { get; set; }
         public string Position { get; set; }
         public string Team { get; set; }
+        public string Overview { get; set; }
+
+        //Game Log
+        //Statistics
+        //Projections
 
         public Player()
         {

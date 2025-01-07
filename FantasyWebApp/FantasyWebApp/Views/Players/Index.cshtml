@@ -9,6 +9,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+@* Headers Name Position Team*@
 <table class="table">
     <tr>
         <th>
@@ -25,8 +26,9 @@
         </th>
         <th></th>
     </tr>
-
-@foreach (var item in Model) {
+@* Display Details Amon Ra WR DET *@
+@foreach (var item in Model)
+{
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.Name)

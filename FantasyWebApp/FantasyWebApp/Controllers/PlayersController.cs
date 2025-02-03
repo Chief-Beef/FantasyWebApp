@@ -60,7 +60,7 @@ namespace FantasyWebApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Position,Team,Overview")] Player player)
+        public ActionResult Create([Bind(Include = "Id,Name,Position,Team,Grade,Overview")] Player player)
         {
             if (ModelState.IsValid)
             {
@@ -92,7 +92,7 @@ namespace FantasyWebApp.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Position,Team,Overview")] Player player)
+        public ActionResult Edit([Bind(Include = "Id,Name,Position,Team,Grade,Overview")] Player player)
         {
             if (ModelState.IsValid)
             {

@@ -9,7 +9,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-@* Headers Name Position Team*@
+@* Headers: Name Position Team*@
 <table class="table">
     <tr>
         <th>
@@ -22,11 +22,11 @@
             @Html.DisplayNameFor(model => model.Team)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Overview)
+            @Html.DisplayNameFor(model => model.Grade)
         </th>
         <th></th>
     </tr>
-@* Display Details Amon Ra WR DET *@
+@* Details: Amon Ra WR DET *@
 @foreach (var item in Model)
 {
     <tr>
@@ -40,7 +40,7 @@
             @Html.DisplayFor(modelItem => item.Team)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Overview)
+            @Html.DisplayFor(modelItem => item.Grade)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |

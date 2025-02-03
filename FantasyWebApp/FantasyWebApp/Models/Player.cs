@@ -7,13 +7,15 @@ namespace FantasyWebApp.Models
 {
     public class Player
     {
-
+        //Visible in Index
         public int Id { get; set; }
         public string Name { get; set; }
         public string Position { get; set; }
         public string Team { get; set; }
-        public string Overview { get; set; }
+        public string Grade { get; set; }
 
+        //Not Visible in Index
+        public string Overview { get; set; }
         //Game Log
         //Statistics
         //Projections

@@ -43,3 +43,6 @@ FantasyWebApp/.vs/FantasyWebApp/v17/.suo
 /FantasyWebApp/FantasyWebApp/App_Data
 /FantasyWebApp/.vs/FantasyWebApp/v17
 *.cache
+*.json
+/FantasyWebApp/.vs/FantasyWebApp/v17
+*.mdf

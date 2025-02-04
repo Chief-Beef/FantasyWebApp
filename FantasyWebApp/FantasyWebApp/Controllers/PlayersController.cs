@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
@@ -16,13 +17,49 @@ namespace FantasyWebApp.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Players
-        public ActionResult Index()
+        //public ActionResult Index()
+        //{
+        //    return View(db.Players.ToList());
+        //}
+
+        public ActionResult Index(string sortOrder, string searchString)
         {
-            return View(db.Players.ToList());
+            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["TeamSortParm"] = sortOrder == "Team" ? "team_desc" : "Team";
+            ViewData["PosSortParm"] = sortOrder == "Pos" ? "pos_desc" : "Pos";
+            ViewData["GradeSortParm"] = sortOrder == "Grade" ? "grade_desc" : "Grade";
+            ViewData["CurrentFilter"] = searchString;
+
+            var players = from p in db.Players 
+                          select p;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                players = players.Where(p => p.Name.Contains(searchString));
+            }
+
+            switch (sortOrder)
+            {
+                case "name_desc":
+                    players = players.OrderByDescending(p => p.Name);
+                    break;
+                case "Team":
+                    players = players.OrderBy(p => p.Team);
+                    break;
+                case "date_desc":
+                    players = players.OrderByDescending(p => p.Team);
+                    break;
+                default:
+                    players = players.OrderBy(p => p.Grade);
+                    break;
+            }
+
+            return View(players.AsNoTracking().ToList());
         }
 
-        // GET: Players/ShowSearchForm
-        public ActionResult ShowSearchForm()
+
+    // GET: Players/ShowSearchForm
+    public ActionResult ShowSearchForm()
         {
             return View();
         }

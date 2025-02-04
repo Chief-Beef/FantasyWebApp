@@ -18,6 +18,10 @@ namespace FantasyWebApp.Models
         public string Overview { get; set; }
         //Game Log
         //Statistics
+            //Season Statistics
+            //Career Totals + Avgs
+        
+        
         //Projections
 
         public Player()

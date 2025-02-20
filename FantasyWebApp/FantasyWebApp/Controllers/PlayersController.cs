@@ -24,6 +24,7 @@ namespace FantasyWebApp.Controllers
 
         public ActionResult Index(string sortOrder, string searchString)
         {
+            //different sort options/filters for buttons
             ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             ViewData["TeamSortParm"] = sortOrder == "Team" ? "team_desc" : "Team";
             ViewData["PosSortParm"] = sortOrder == "Pos" ? "pos_desc" : "Pos";
@@ -33,12 +34,12 @@ namespace FantasyWebApp.Controllers
             var players = from p in db.Players 
                           select p;
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!String.IsNullOrEmpty(searchString))    //if search string not null return players matching search 
             {
                 players = players.Where(p => p.Name.Contains(searchString));
             }
 
-            switch (sortOrder)
+            switch (sortOrder)      //determine sort order
             {
                 case "name_desc":
                     players = players.OrderByDescending(p => p.Name);
@@ -54,7 +55,7 @@ namespace FantasyWebApp.Controllers
                     break;
             }
 
-            return View(players.AsNoTracking().ToList());
+            return View(players.AsNoTracking().ToList());   //return sort order
         }
 
 

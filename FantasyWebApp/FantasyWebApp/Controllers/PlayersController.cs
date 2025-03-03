@@ -17,18 +17,15 @@ namespace FantasyWebApp.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Players
-        //public ActionResult Index()
-        //{
-        //    return View(db.Players.ToList());
-        //}
+
 
         public ActionResult Index(string sortOrder, string searchString)
         {
             //different sort options/filters for buttons
-            ViewData["NameSortParm"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-            ViewData["TeamSortParm"] = sortOrder == "Team" ? "team_desc" : "Team";
-            ViewData["PosSortParm"] = sortOrder == "Pos" ? "pos_desc" : "Pos";
-            ViewData["GradeSortParm"] = sortOrder == "Grade" ? "grade_desc" : "Grade";
+            ViewData["NameSortParam"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewData["PosSortParam"] = sortOrder == "Pos" ? "pos_desc" : "Pos";
+            ViewData["TeamSortParam"] = sortOrder == "Team" ? "team_desc" : "Team";
+            ViewData["GradeSortParam"] = sortOrder == "Grade" ? "grade_desc" : "Grade";
             ViewData["CurrentFilter"] = searchString;
 
             var players = from p in db.Players 
@@ -47,18 +44,21 @@ namespace FantasyWebApp.Controllers
                 case "Team":
                     players = players.OrderBy(p => p.Team);
                     break;
-                case "date_desc":
+                case "team_desc":
                     players = players.OrderByDescending(p => p.Team);
                     break;
+                case "Grade_desc":
+                    players = players.OrderByDescending(p => p.Grade);
+                    break;
                 default:
-                    players = players.OrderBy(p => p.Grade);
+                    players = players.OrderBy(p => p.Name);
                     break;
             }
 
             return View(players.AsNoTracking().ToList());   //return sort order
         }
 
-
+    
     // GET: Players/ShowSearchForm
     public ActionResult ShowSearchForm()
         {

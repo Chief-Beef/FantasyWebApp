@@ -1,67 +1,66 @@
 ﻿@model IEnumerable<FantasyWebApp.Models.Player>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Players DB";
 }
 
-<h2>Index</h2>
+<h2>Player DB</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 
-<form asp-action="Index" method="get">
-    <div class="form-actions no-color">
-        <p>
-            <label>Find by name: <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" /></label>
-            <input type="submit" value="Search" class="btn btn-default" /> |
-            <a asp-action="Index">Back to Full List</a>
-        </p>
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="p-4">All Players</h3>
+        </div>
     </div>
-</form>
+    <div class="row">
+        <div class="col-md-6">
+            <form class="d-flex" asp-action="Index" asp-controller="Player DB">
+                <input name="searchString" class="form-control me-1" type="search" placeholder="Search" aria-label="Search" value="@ViewData["CurrentFilter"]">
+                <button class="btn btn-dark" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <a asp-action="Index" class="text-dark">Back to Full List</a>
+        </div>
+    </div>
 
 
-@* Headers: Name Position Team*@
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["NameSortParm"]">@Html.DisplayNameFor(model => model.Name)</a>
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Position)
-            </th>
-            <th>
-                <a asp-action="Index" asp-route-sortOrder="@ViewData["TeamSortParm"]">@Html.DisplayNameFor(model => model.Team)</a>
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Grade)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    @* Details: Amon Ra WR DET *@
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Position)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Team)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Grade)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-            </td>
-        </tr>
-    }
+    @* Headers: Name Position Team  Grade*@
+    <div class="row">
+        <div class="col-md-12 p-4">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"><a asp-controller="Players" asp-action="Index" asp-route-sortOrder="name_desc"> Name</a></th>
+                        <th scope="col"><a class="text-dark" asp-controller="Players" asp-action="Index" asp-route-sortOrder=@ViewData["PosSortParam"] asp-route-currentFilter="@ViewData["CurrentFilter"]">Pos</a></th>
+                        <th scope="col"><a class="text-dark" asp-controller="Players" asp-action="Index" asp-route-sortOrder=@ViewData["TeamSortParam"] asp-route-currentFilter="@ViewData["CurrentFilter"]">Team</a></th>
+                        <th scope="col"><a class="text-dark" asp-controller="Players" asp-action="Index" asp-route-sortOrder=@ViewData["GradeSortParam"] asp-route-currentFilter="@ViewData["CurrentFilter"]">Grade</a></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
 
-</table>
+                    @* Details: Amon Ra WR DET *@
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Position</td>
+                            <td>@item.Team</td>
+                            <td>@item.Grade</td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -23,9 +23,9 @@ namespace FantasyWebApp.Controllers
         {
             //different sort options/filters for buttons
             ViewData["NameSortParam"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-            ViewData["PosSortParam"] = sortOrder == "Pos" ? "pos_desc" : "Pos";
-            ViewData["TeamSortParam"] = sortOrder == "Team" ? "team_desc" : "Team";
-            ViewData["GradeSortParam"] = sortOrder == "Grade" ? "grade_desc" : "Grade";
+            ViewData["PosSortParam"] = sortOrder == "Pos" ? "pos_desc" : "pos_asc";
+            ViewData["TeamSortParam"] = sortOrder == "Team" ? "team_desc" : "team_asc";
+            ViewData["GradeSortParam"] = sortOrder == "Grade" ? "grade_desc" : "grade_asc";
             ViewData["CurrentFilter"] = searchString;
 
             var players = from p in db.Players 
@@ -41,13 +41,22 @@ namespace FantasyWebApp.Controllers
                 case "name_desc":
                     players = players.OrderByDescending(p => p.Name);
                     break;
-                case "Team":
+                case "team_asc":
                     players = players.OrderBy(p => p.Team);
                     break;
                 case "team_desc":
                     players = players.OrderByDescending(p => p.Team);
                     break;
-                case "Grade_desc":
+                case "pos_asc":
+                    players = players.OrderBy(p => p.Position);
+                    break;
+                case "pos_desc":
+                    players = players.OrderByDescending(p => p.Position);
+                    break;
+                case "grade_asc":
+                    players = players.OrderBy(p => p.Grade);
+                    break;
+                case "grade_desc":
                     players = players.OrderByDescending(p => p.Grade);
                     break;
                 default:

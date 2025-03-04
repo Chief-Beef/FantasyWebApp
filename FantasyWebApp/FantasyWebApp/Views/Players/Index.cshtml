@@ -35,11 +35,18 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col"><a asp-controller="Players" asp-action="Index" asp-route-sortOrder="name_desc"> Name</a></th>
-                        <th scope="col"><a class="text-dark" asp-controller="Players" asp-action="Index" asp-route-sortOrder=@ViewData["PosSortParam"] asp-route-currentFilter="@ViewData["CurrentFilter"]">Pos</a></th>
-                        <th scope="col"><a class="text-dark" asp-controller="Players" asp-action="Index" asp-route-sortOrder=@ViewData["TeamSortParam"] asp-route-currentFilter="@ViewData["CurrentFilter"]">Team</a></th>
-                        <th scope="col"><a class="text-dark" asp-controller="Players" asp-action="Index" asp-route-sortOrder=@ViewData["GradeSortParam"] asp-route-currentFilter="@ViewData["CurrentFilter"]">Grade</a></th>
-                        <th></th>
+                        <th>
+                            @Html.ActionLink("Name", "Index", new { sortOrder = ViewData["NameSortParam"] })
+                        </th>
+                        <th>
+                            @Html.ActionLink("Pos", "Index", new { sortOrder = ViewData["PosSortParam"] })
+                        </th>
+                        <th>
+                            @Html.ActionLink("Team", "Index", new { sortOrder = ViewData["TeamSortParam"] })
+                        </th>
+                        <th>
+                            @Html.ActionLink("Grade", "Index", new { sortOrder = ViewData["GradeSortParam"] })
+                        </th>
                     </tr>
                 </thead>
                 <tbody>

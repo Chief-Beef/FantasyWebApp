@@ -168,7 +168,7 @@ namespace FantasyWebApp.Controllers
         // POST: Players/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
+        public ActionResult DeleteConfirmed(int id) //find player if they exist, remove from database, save changes, return to Index
         {
             Player player = db.Players.Find(id);
             db.Players.Remove(player);

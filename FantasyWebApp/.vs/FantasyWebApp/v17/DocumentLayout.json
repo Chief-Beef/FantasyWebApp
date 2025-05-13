@@ -7,24 +7,28 @@
       "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\players\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\players\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\players\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\players\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\players\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\views\\players\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\views\\players\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\migrations\\202501280116261_addplayergrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\migrations\\202501280116261_addplayergrade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|solutionrelative:fantasywebapp\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FCBCD1E-2764-4975-A50F-A89398A9D1E2}|FantasyWebApp\\FantasyWebApp.csproj|C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\fantasywebapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "FantasyWebApp\\Controllers\\PlayersController.cs",
               "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "FantasyWebApp\\Controllers\\PlayersController.cs",
-              "ViewState": "AQIAAJcAAAAAAAAAAADwv6oAAACEAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T19:32:48.893Z",
               "IsPinned": true,
@@ -76,20 +76,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Players\\Index.cshtml",
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Players\\Index.cshtml",
               "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Players\\Index.cshtml",
               "RelativeToolTip": "FantasyWebApp\\Views\\Players\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAABgAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAC0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-05T19:06:04.075Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Players\\Edit.cshtml",
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Players\\Edit.cshtml",
@@ -102,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Shared\\_Layout.cshtml",
@@ -111,7 +112,8 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-02T23:09:58.669Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -121,13 +123,14 @@
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Players\\Details.cshtml",
               "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Players\\Details.cshtml",
               "RelativeToolTip": "FantasyWebApp\\Views\\Players\\Details.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T20:28:43.507Z"
+              "WhenOpened": "2025-03-04T20:28:43.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Views\\Players\\Create.cshtml",
               "RelativeDocumentMoniker": "FantasyWebApp\\Views\\Players\\Create.cshtml",
@@ -139,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AccountViewModels.cs",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Models\\AccountViewModels.cs",
               "RelativeDocumentMoniker": "FantasyWebApp\\Models\\AccountViewModels.cs",
@@ -151,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Models\\Player.cs",
               "RelativeDocumentMoniker": "FantasyWebApp\\Models\\Player.cs",
@@ -163,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "202501280116261_AddPlayerGrade.cs",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Migrations\\202501280116261_AddPlayerGrade.cs",
               "RelativeDocumentMoniker": "FantasyWebApp\\Migrations\\202501280116261_AddPlayerGrade.cs",
@@ -175,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "FantasyWebApp\\Migrations\\Configuration.cs",
@@ -183,7 +186,8 @@
               "RelativeToolTip": "FantasyWebApp\\Migrations\\Configuration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T23:28:54.844Z"
+              "WhenOpened": "2025-03-03T23:28:54.844Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

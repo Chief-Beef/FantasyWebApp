@@ -36,16 +36,19 @@
                 <thead>
                     <tr>
                         <th>
-                            @Html.ActionLink("Name", "Index", new { sortOrder = ViewData["NameSortParam"] })
+                            @Html.ActionLink("Name", "Index", new { sortOrder = ViewData["NameSortParam"], searchString = ViewData["CurrentFilter"] })
                         </th>
                         <th>
-                            @Html.ActionLink("Pos", "Index", new { sortOrder = ViewData["PosSortParam"] })
+                            @Html.ActionLink("Pos", "Index", new { sortOrder = ViewData["PosSortParam"], searchString = ViewData["CurrentFilter"] })
                         </th>
                         <th>
-                            @Html.ActionLink("Team", "Index", new { sortOrder = ViewData["TeamSortParam"] })
+                            @Html.ActionLink("Team", "Index", new { sortOrder = ViewData["TeamSortParam"], searchString = ViewData["CurrentFilter"] })
                         </th>
                         <th>
-                            @Html.ActionLink("Grade", "Index", new { sortOrder = ViewData["GradeSortParam"] })
+                            @Html.ActionLink("Grade", "Index", new { sortOrder = ViewData["GradeSortParam"], searchString = ViewData["CurrentFilter"] })
+                        </th>
+                        <th>
+                            Actions
                         </th>
                     </tr>
                 </thead>

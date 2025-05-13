@@ -23,9 +23,9 @@ namespace FantasyWebApp.Controllers
         {
             //different sort options/filters for buttons
             ViewData["NameSortParam"] = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-            ViewData["PosSortParam"] = sortOrder == "Pos" ? "pos_desc" : "pos_asc";
-            ViewData["TeamSortParam"] = sortOrder == "Team" ? "team_desc" : "team_asc";
-            ViewData["GradeSortParam"] = sortOrder == "Grade" ? "grade_desc" : "grade_asc";
+            ViewData["PosSortParam"] = sortOrder == "pos_asc" ? "pos_desc" : "pos_asc";
+            ViewData["TeamSortParam"] = sortOrder == "team_asc" ? "team_desc" : "team_asc";
+            ViewData["GradeSortParam"] = sortOrder == "grade_asc" ? "grade_desc" : "grade_asc";
             ViewData["CurrentFilter"] = searchString;
 
             var players = from p in db.Players 

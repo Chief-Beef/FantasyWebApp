@@ -28,7 +28,7 @@ namespace FantasyWebApp.Controllers
             ViewData["GradeSortParam"] = sortOrder == "grade_asc" ? "grade_desc" : "grade_asc";
             ViewData["CurrentFilter"] = searchString;
 
-            var players = from p in db.Players 
+            var players = from p in db.Players
                           select p;
 
             if (!String.IsNullOrEmpty(searchString))    //if search string not null return players matching search 
@@ -67,9 +67,9 @@ namespace FantasyWebApp.Controllers
             return View(players.AsNoTracking().ToList());   //return sort order
         }
 
-    
-    // GET: Players/ShowSearchForm
-    public ActionResult ShowSearchForm()
+
+        // GET: Players/ShowSearchForm
+        public ActionResult ShowSearchForm()
         {
             return View();
         }

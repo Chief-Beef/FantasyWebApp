@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "FantasyWebApp\\Controllers\\PlayersController.cs",
               "ToolTip": "C:\\Users\\ptige\\Documents\\FantasyWebApp\\FantasyWebApp\\FantasyWebApp\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "FantasyWebApp\\Controllers\\PlayersController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCYAAAAMAAAA",
+              "ViewState": "AQIAAJsAAAAAAAAAAADwv6wAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T19:32:48.893Z",
               "IsPinned": true,
@@ -85,8 +85,7 @@
               "ViewState": "AQIAABcAAAAAAAAAAAAAAC0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-05T19:06:04.075Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-02T23:09:58.669Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -125,8 +123,7 @@
               "RelativeToolTip": "FantasyWebApp\\Views\\Players\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T20:28:43.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T20:28:43.507Z"
             },
             {
               "$type": "Document",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "FantasyWebApp\\Migrations\\Configuration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T23:28:54.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T23:28:54.844Z"
             },
             {
               "$type": "Document",
